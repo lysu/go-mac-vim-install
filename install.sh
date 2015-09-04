@@ -10,6 +10,7 @@ install_vim() {
         npm
         libxslt
         xmlto
+        coreutils
     )
 
     repositories=(
@@ -86,7 +87,7 @@ install_vim() {
     wget -P ~ "https://raw.githubusercontent.com/xlucas/go-vim-install/master/.vimrc"
 
     # Path
-    echo "export PATH=\$PATH:$(readlink -f ~/.local/bin)" >> ~/.profile
+    echo "export PATH=\$PATH:$(greadlink -f ~/.local/bin)" >> ~/.profile
     exit 0
 }
 
