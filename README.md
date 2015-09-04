@@ -1,6 +1,10 @@
 # go-vim-install
 Easy environment setup for Vim addicts and go developers on Mac OSX.
 
+Thanks to [xlucas](https://github.com/xlucas), this is a version that modify from xlucas's [go-vim-install](https://github.com/xlucas/go-vim-install)
+
+I like to use [gvm](https://github.com/moovweb/gvm) to instal and manage golang env, so I remove `-go` option and `-work` option only fetch the requirement tools
+
 ## Prerequire
 
 - Xcode. Install it either from your Mac OS X install media or better, go download the latest version from http://developer.apple.com/TOOLS/Xcode/
