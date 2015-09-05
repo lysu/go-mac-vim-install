@@ -30,6 +30,7 @@ install_vim() {
         godlygeek/tabular
         SirVer/ultisnips
         suan/vim-instant-markdown
+        mileszs/ack.vim
     )
 
     # Backup
